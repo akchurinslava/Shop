@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.KindergartenTest/Shop.KindergartenTest.csproj": {}
+    "/Users/my_pc/Desktop/work/github/shop/Shop.KindergartenTest/Shop.KindergartenTest.csproj": {}
   },
   "projects": {
-    "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.ApplicationServices/Shop.ApplicationServices.csproj": {
+    "/Users/my_pc/Desktop/work/github/shop/Shop.ApplicationServices/Shop.ApplicationServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.ApplicationServices/Shop.ApplicationServices.csproj",
+        "projectUniqueName": "/Users/my_pc/Desktop/work/github/shop/Shop.ApplicationServices/Shop.ApplicationServices.csproj",
         "projectName": "Shop.ApplicationServices",
-        "projectPath": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.ApplicationServices/Shop.ApplicationServices.csproj",
+        "projectPath": "/Users/my_pc/Desktop/work/github/shop/Shop.ApplicationServices/Shop.ApplicationServices.csproj",
         "packagesPath": "/Users/my_pc/.nuget/packages/",
-        "outputPath": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.ApplicationServices/obj/",
+        "outputPath": "/Users/my_pc/Desktop/work/github/shop/Shop.ApplicationServices/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/my_pc/.nuget/NuGet/NuGet.Config"
@@ -27,11 +27,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Core/Shop.Core.csproj": {
-                "projectPath": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Core/Shop.Core.csproj"
+              "/Users/my_pc/Desktop/work/github/shop/Shop.Core/Shop.Core.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/shop/Shop.Core/Shop.Core.csproj"
               },
-              "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Data/Shop.Data.csproj": {
-                "projectPath": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Data/Shop.Data.csproj"
+              "/Users/my_pc/Desktop/work/github/shop/Shop.Data/Shop.Data.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/shop/Shop.Data/Shop.Data.csproj"
               }
             }
           }
@@ -46,9 +46,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.26, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -106,13 +126,13 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.6.1, )"
+              "version": "[2.6.3, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[2.5.5, )"
             }
           },
           "imports": [
@@ -131,18 +151,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Core/Shop.Core.csproj": {
+    "/Users/my_pc/Desktop/work/github/shop/Shop.Core/Shop.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Core/Shop.Core.csproj",
+        "projectUniqueName": "/Users/my_pc/Desktop/work/github/shop/Shop.Core/Shop.Core.csproj",
         "projectName": "Shop.Core",
-        "projectPath": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Core/Shop.Core.csproj",
+        "projectPath": "/Users/my_pc/Desktop/work/github/shop/Shop.Core/Shop.Core.csproj",
         "packagesPath": "/Users/my_pc/.nuget/packages/",
-        "outputPath": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Core/obj/",
+        "outputPath": "/Users/my_pc/Desktop/work/github/shop/Shop.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/my_pc/.nuget/NuGet/NuGet.Config"
@@ -170,9 +190,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.26, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -230,13 +270,13 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.6.1, )"
+              "version": "[2.6.3, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[2.5.5, )"
             }
           },
           "imports": [
@@ -255,18 +295,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Data/Shop.Data.csproj": {
+    "/Users/my_pc/Desktop/work/github/shop/Shop.Data/Shop.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Data/Shop.Data.csproj",
+        "projectUniqueName": "/Users/my_pc/Desktop/work/github/shop/Shop.Data/Shop.Data.csproj",
         "projectName": "Shop.Data",
-        "projectPath": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Data/Shop.Data.csproj",
+        "projectPath": "/Users/my_pc/Desktop/work/github/shop/Shop.Data/Shop.Data.csproj",
         "packagesPath": "/Users/my_pc/.nuget/packages/",
-        "outputPath": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Data/obj/",
+        "outputPath": "/Users/my_pc/Desktop/work/github/shop/Shop.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/my_pc/.nuget/NuGet/NuGet.Config"
@@ -282,8 +322,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Core/Shop.Core.csproj": {
-                "projectPath": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Core/Shop.Core.csproj"
+              "/Users/my_pc/Desktop/work/github/shop/Shop.Core/Shop.Core.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/shop/Shop.Core/Shop.Core.csproj"
               }
             }
           }
@@ -298,9 +338,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.26, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -358,13 +418,13 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.6.1, )"
+              "version": "[2.6.3, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[2.5.5, )"
             }
           },
           "imports": [
@@ -383,18 +443,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.KindergartenTest/Shop.KindergartenTest.csproj": {
+    "/Users/my_pc/Desktop/work/github/shop/Shop.KindergartenTest/Shop.KindergartenTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.KindergartenTest/Shop.KindergartenTest.csproj",
+        "projectUniqueName": "/Users/my_pc/Desktop/work/github/shop/Shop.KindergartenTest/Shop.KindergartenTest.csproj",
         "projectName": "Shop.KindergartenTest",
-        "projectPath": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.KindergartenTest/Shop.KindergartenTest.csproj",
+        "projectPath": "/Users/my_pc/Desktop/work/github/shop/Shop.KindergartenTest/Shop.KindergartenTest.csproj",
         "packagesPath": "/Users/my_pc/.nuget/packages/",
-        "outputPath": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.KindergartenTest/obj/",
+        "outputPath": "/Users/my_pc/Desktop/work/github/shop/Shop.KindergartenTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/my_pc/.nuget/NuGet/NuGet.Config"
@@ -410,11 +470,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.ApplicationServices/Shop.ApplicationServices.csproj": {
-                "projectPath": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.ApplicationServices/Shop.ApplicationServices.csproj"
+              "/Users/my_pc/Desktop/work/github/shop/Shop.ApplicationServices/Shop.ApplicationServices.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/shop/Shop.ApplicationServices/Shop.ApplicationServices.csproj"
               },
-              "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Core/Shop.Core.csproj": {
-                "projectPath": "/Users/my_pc/Desktop/iCloudDrive/devorg_ou/programming/github/shop/Shop.Core/Shop.Core.csproj"
+              "/Users/my_pc/Desktop/work/github/shop/Shop.Core/Shop.Core.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/shop/Shop.Core/Shop.Core.csproj"
               }
             }
           }
@@ -429,9 +489,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.26, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -489,13 +569,13 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.6.1, )"
+              "version": "[2.6.3, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[2.5.5, )"
             }
           },
           "imports": [
@@ -514,7 +594,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.404/RuntimeIdentifierGraph.json"
         }
       }
     }

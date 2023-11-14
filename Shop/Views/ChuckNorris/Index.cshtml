@@ -1,0 +1,19 @@
+﻿@model Shop.Models.ChuckNorris.ChuckNorrisJokeViewModel
+@{
+    ViewData["Title"] = "Joke Generate";
+}
+
+<div style="margin-top: 200px">
+
+    <div class="container">
+        <form method="post">
+            <div class="row justify-content-center">
+                <div class="col-md-5 text-center">
+
+                    <button asp-controller="ChuckNorris" asp-action="generateJoke" class="btn btn-lg btn-success">Generate Joke</button>
+
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
